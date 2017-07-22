@@ -1,0 +1,205 @@
+body, html
+  margin: 0
+  padding: 0
+
+#app
+  display: flex
+  flex-direction: column
+  align-items: center
+
+
+#frontPage
+  background: (#E0F7FA)
+  min-height: 5vh
+  width: 100vw
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.topMenu
+  position: fixed
+  background: (#4DD0E1)
+  width: 100vw
+  height: 80px
+  display: flex
+  z-index: 3
+
+#topMenuLeft, #topMenuRight
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+
+#topMenuLeft
+  width: 60%
+  justify-content: flex-start
+  font-size: 50px
+
+#topMenuLeft a
+  color: (#37474F)
+  font-style: Helvetica
+  text-decoration: none
+  &:hover
+    transform: scale(1.25, 1.25)
+
+#topMenuRight
+    width: 40%
+
+#topMenuRight a
+  color: (#37474F)
+  font-style: Helvetica
+  text-decoration: none
+
+.branding
+  height: 30px
+  width: 250px
+  display: flex
+  justify-content: center
+  align-items: center
+
+.topMenuItem
+  background: (#0097A7)
+  width: 80px
+  height: 50px
+  color: white
+  font-style: Helvetica
+  display: flex
+  justify-content: center
+  align-items: center
+  &:hover
+    transform: scale(1.25, 1.25)
+
+.contentContainer
+  position: relative
+  top: 90px
+  display: flex
+  height: 900vh
+  width: 100%
+  flex-direction: column
+  align-items: center
+  justify-content: flex-start
+  z-index: 2
+
+#banner
+  height: 90vh
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.mainBanner
+  border: 3px solid (#0097A7)
+  height: 80vh
+  width: 80%
+
+.mainBanner img
+  height: 100%
+  width: 100%
+
+.panelContainer
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 90vh
+  width: 80%
+
+.panel
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: center
+  height: 360px
+  width: 20%
+
+.panelBanner
+  background: (#0097A7)
+  width: 100%
+  height: 180px
+
+.panelBanner img
+  width: calc(100% - 6px)
+  height: calc(100% - 6px)
+  border: 3px solid (#0097A7)
+
+.panelText
+  background: (#B2EBF2)
+  width: 100%
+  height: 180px
+  color: (#006064)
+  text-align: center
+  display: flex
+  justify-content: center
+  align-items: center
+
+
+#userProfileForm
+  width: 100%
+  height: 1200px
+  color: (#00BCD4)
+  font-size: 30px
+  text-decoration: none
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-around
+
+#userProfileForm h1
+  font-size: 50px
+  font-weight: bold
+
+#whichHouse
+  width: 100%
+  height: auto
+  display: flex
+  justify-content: center
+
+.buttonQuestion
+  display: flex
+  flex-wrap: wrap
+  width: 150px
+  font-size: 16px
+
+.buttons
+  font-size: 12px
+  width: 150px
+
+RadioButton label
+  color: (#00BCD4)
+
+#numPplSelect
+  font-size: 12px
+
+.gridBox
+  width: 100%
+  height: 70vh
+  display: flex
+  justify-content: center
+  align-items: center
+
+#imagesGrid1
+    background: (#B2EBF2)
+    width: 100%
+    height: 90vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.imagesTitle
+  font-size: 50px
+  color: (#00BCD4)
+  text-align: center
+
+#grid1
+  width: 80%
+  height: 400px
+
+.imageText
+  width: 100%
+  height: 180px
+  background: blue
+
+.divider
+  width: 100%
+  height: 2px
+  background: (#4DD0E1)
